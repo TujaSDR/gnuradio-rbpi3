@@ -146,9 +146,10 @@ cmake -DENABLE_GR_WAVELET=OFF -DENABLE_GRC=OFF -DENABLE_PYTHON=OFF -DENABLE_GR_A
 
 make -j4 install
 ```
-Many.
 
 ### libvolk
+
+**Issue:** https://github.com/gnuradio/volk/issues/221
 
 ```bash
 
