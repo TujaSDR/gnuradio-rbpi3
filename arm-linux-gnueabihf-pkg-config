@@ -1,7 +1,7 @@
 #!/bin/sh
 
 TRIPLE=arm-linux-gnueabihf
-SYSROOT=/home/albin/src/rbpi3sdk/sysroot
+SYSROOT=$SDKPATH/sysroot
 
 export PKG_CONFIG_DIR=
 export PKG_CONFIG_LIBDIR=${SYSROOT}/usr/local/lib/pkgconfig:${SYSROOT}/usr/lib/pkgconfig:${SYSROOT}/usr/lib/${TRIPLE}/pkgconfig:${SYSROOT}/usr/share/pkgconfig
